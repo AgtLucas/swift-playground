@@ -33,3 +33,12 @@ class SomeClass : optionalSuperClass, optionalProtocol1, optionalProtocol2 {
 func doIt() -> Int {
     return 0
 }
+
+func doIt(a:Int, b:Int) -> Int {
+    return a
+}
+
+func doIt(a:Int, b:Int) -> Int {
+    return a + b
+}
+
