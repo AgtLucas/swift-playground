@@ -28,3 +28,8 @@ class SomeClass : optionalSuperClass, optionalProtocol1, optionalProtocol2 {
     // More methods
 
 }
+
+// Methods
+func doIt() -> Int {
+    return 0
+}
