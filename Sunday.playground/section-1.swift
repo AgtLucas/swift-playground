@@ -28,3 +28,36 @@ var greeting = "Hello!"
 if let name = optionalName {
     greeting = "Hello, \(name)"
 } 
+
+//
+
+let vegetable = "Red Pepper"
+
+switch vegetable {
+    case "celery":
+        let vegetableComment = "Add some raisins and make ants on a log."
+    case "cucumber", "watercress":
+        let vegetableComment = "That would make a good tea sandwich."
+    case let x where x.hasSuffix("Pepper"):
+        let vegetableComment = "Is it a spicy \(x)?"
+    default:
+        let vetetableComment = "Everything tastes good in soup."
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
