@@ -19,3 +19,12 @@ teamScore
 //
 
 
+//var optionalString: String? = "Hello"
+//optionalString == nil
+
+var optionalName: String? = "Lucas"
+var greeting = "Hello!"
+
+if let name = optionalName {
+    greeting = "Hello, \(name)"
+} 
