@@ -32,3 +32,35 @@ let statistics = calculateStatistics([5, 3, 100, 3, 9])
 statistics.sum
 statistics.max
 statistics.min
+
+//--
+
+func sumOf(numbers: Int...) -> Int {
+    var sum = 0
+
+    for number in numbers {
+        sum += number
+    }
+
+    return sum
+}
+
+sumOf(2, 3, 4)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
