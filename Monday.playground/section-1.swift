@@ -27,3 +27,8 @@ func calculateStatistics(scores: [Int]) -> (min: Int, max: Int, sum: Int) {
 
     return (min, max, sum)
 }
+
+let statistics = calculateStatistics([5, 3, 100, 3, 9])
+statistics.sum
+statistics.max
+statistics.min
