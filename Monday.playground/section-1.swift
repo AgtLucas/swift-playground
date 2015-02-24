@@ -2,4 +2,10 @@
 
 import UIKit
 
-var str = "Hello, playground"
+/// Func
+
+func greet(name: String, day: String) -> String {
+    return "Hello, \(name), today is \(day)."
+}
+
+greet("Lucas", "Monday")
