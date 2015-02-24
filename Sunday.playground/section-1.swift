@@ -66,7 +66,7 @@ for (kind, numbers) in interestingNumbers {
 largest
 
 
-/// While
+/// While, do, for
 
 var n = 2
 
@@ -83,6 +83,22 @@ do {
 } while m < 100
 
 m
+
+var fl = 0
+
+for i in 0..<4 {
+    fl += 1
+}
+
+fl
+
+var sl = 0
+for var i = 0; i < 4; ++i {
+    sl += i
+}
+
+sl
+
 
 
 
