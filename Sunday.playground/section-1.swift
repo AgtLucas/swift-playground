@@ -16,7 +16,7 @@ for score in individualScores {
 teamScore
 
 
-//
+// if
 
 
 //var optionalString: String? = "Hello"
@@ -29,7 +29,7 @@ if let name = optionalName {
     greeting = "Hello, \(name)"
 } 
 
-//
+/// Switch
 
 let vegetable = "Red Pepper"
 
@@ -46,7 +46,7 @@ switch vegetable {
 
 
 
-///
+/// For
 
 let interestingNumbers = [
     "Prime": [2, 3, 5, 7, 11, 13],
@@ -65,6 +65,8 @@ for (kind, numbers) in interestingNumbers {
 
 largest
 
+
+/// While
 
 
 
